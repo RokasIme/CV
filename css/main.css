@@ -142,18 +142,43 @@ h2 {
 .letter {
   font-size: 13px;
 }
+.right-section {
+  background-color: #fdfdfd;
+  margin-left: 60px;
+}
+
+.right-section .line {
+  margin-bottom: 8px;
+}
 
 .right-section h2 {
   padding-bottom: 5px;
-  margin-top: 5px;
+  margin-top: 20px;
+  position: relative;
 }
 
+.right-section i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  font-size: 14px;
+  left: -50px;
+  top: 0;
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  color: #fdfdfd;
+  background-color: #323b4c;
+  padding-left: 2px;
+}
 .profile h2 {
   margin-top: 30px;
 }
 
 .profile p {
   margin-top: 4px;
+  text-align: justify;
 }
 
 .right-section p,
@@ -164,4 +189,22 @@ h2 {
 .company-year {
   display: flex;
   justify-content: space-between;
+  margin-top: 5px;
+}
+
+.company p {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.year p {
+  font-size: 15px;
+}
+
+.right-section li {
+  margin-left: 15px;
+}
+
+.first-education {
+  margin-bottom: 10px;
 }
