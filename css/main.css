@@ -29,10 +29,6 @@ body * {
   font-family: Lato;
   src: url(../fonts/Lato-Regular.ttf);
 }
-/* H1, h2 šriftas: Now
-p šriftas: Lato
-visa darbo patirtis ir išsilavinimas: Aileron
- */
 
 header {
   height: 180px;
@@ -116,7 +112,7 @@ h2 {
 }
 .left-box p,
 .left-box li {
-  font-size: 13px;
+  font-size: 0.8rem;
 }
 
 .left-box li {
@@ -183,7 +179,7 @@ h2 {
 
 .right-section p,
 .right-section li {
-  font-size: 13px;
+  font-size: 0.8rem;
 }
 
 .company-year {
