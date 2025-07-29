@@ -169,7 +169,7 @@ h2 {
   padding-left: 2px;
 }
 .profile h2 {
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .profile p {
@@ -185,7 +185,7 @@ h2 {
 .company-year {
   display: flex;
   justify-content: space-between;
-  margin-top: 5px;
+  margin-top: 3px;
 }
 
 .company p {
@@ -202,5 +202,5 @@ h2 {
 }
 
 .first-education {
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
